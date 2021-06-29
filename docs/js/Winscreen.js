@@ -16,4 +16,4 @@ export class WinScreen extends GameObject {
         this.div.remove();
     }
 }
-//# sourceMappingURL=winscreen.js.map
+//# sourceMappingURL=Winscreen.js.map

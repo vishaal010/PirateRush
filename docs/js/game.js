@@ -19,6 +19,7 @@ export class Game {
         this.startScreen();
     }
     startScreen() {
+        console.log('test');
         this.startButton = new StartButton(this);
         for (let ene of this.enemies) {
             this.enemies = [];
@@ -55,6 +56,7 @@ export class Game {
         this.player.remove();
         this.score.remove();
         this.lives.remove();
+        console.log(this.enemies.length);
         this.counter++;
         this.gameOver = new Deathscreen(this);
     }
@@ -115,6 +117,7 @@ export class Game {
     }
     removeEnemy(enemy) {
         enemy.remove();
+        console.log('De functie Remove enenmy word 1 x aangeropen');
         this.enemies = this.enemies.filter((e) => e !== enemy);
     }
     addExplosion(e) {

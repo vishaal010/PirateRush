@@ -10,6 +10,7 @@ export class Score extends GameObject {
         this.score = 0
         this.game = g
         this.div.innerHTML = 'Kill 0'
+        console.log('je hebt' + this.score)
     }
 
     public setScore() {
