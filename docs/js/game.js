@@ -1,15 +1,15 @@
-import { Background } from '/background.js';
-import { Sword } from '/sword.js';
-import { Enemy } from '/enemy.js';
-import { Dust } from '/dust.js';
-import { Player } from '/player.js';
-import { StartButton } from '/startbutton.js';
-import { WinScreen } from '/winscreen.js';
-import { Score } from '/score.js';
-import { Lives } from '/lives.js';
-import { Tutorial } from '/tutorial.js';
-import { Timer } from '/timer.js';
-import { Deathscreen } from '/deathscreen.js';
+import { Background } from './background.js';
+import { Sword } from './sword.js';
+import { Enemy } from './enemy.js';
+import { Dust } from './dust.js';
+import { Player } from './player.js';
+import { StartButton } from './startbutton.js';
+import { WinScreen } from './winscreen.js';
+import { Score } from './score.js';
+import { Lives } from './lives.js';
+import { Tutorial } from './tutorial.js';
+import { Timer } from './timer.js';
+import { Deathscreen } from './deathscreen.js';
 export class Game {
     constructor() {
         this.enemies = [];
