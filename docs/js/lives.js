@@ -9,7 +9,6 @@ export class Lives extends GameObject {
     removeLives() {
         this.lives--;
         this.div.innerHTML = 'Lives ' + this.lives;
-        console.log('Mijn leven is nu' + this.lives);
         if (this.lives === 0) {
             this.lives = 3;
             this.remove();

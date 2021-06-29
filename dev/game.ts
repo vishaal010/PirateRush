@@ -36,7 +36,6 @@ export class Game {
     }
 
     public startScreen() {
-        console.log('test')
         this.startButton = new StartButton(this)
 
         for (let ene of this.enemies) {
@@ -95,7 +94,6 @@ export class Game {
         this.score.remove()
         this.lives.remove()
 
-        console.log(this.enemies.length)
 
         this.counter++
 
@@ -161,7 +159,6 @@ export class Game {
 
     public removeEnemy(enemy: Enemy) {
         enemy.remove()
-        console.log('De functie Remove enenmy word 1 x aangeropen')
         this.enemies = this.enemies.filter((e) => e !== enemy)
     }
 
