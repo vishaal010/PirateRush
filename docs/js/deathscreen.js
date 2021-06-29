@@ -1,4 +1,4 @@
-import { GameObject } from './gameobject.js';
+import { GameObject } from 'gameobject.js';
 export class Deathscreen extends GameObject {
     constructor(game) {
         super('deathscreen');
